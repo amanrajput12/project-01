@@ -1,0 +1,121 @@
+.navbar-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Orbitron;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: Orbitron;
+  font-weight: 2px;
+  font-size: 20px;
+}
+.list-item:nth-child(1) {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.list-item {
+  margin: 0px 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-button {
+  padding: 10px 40px;
+  margin: 0px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  z-index: -1;
+  position: absolute;
+  margin: 170px 140px;
+}
+
+.hero-image {
+  width: 400px;
+  height: 450px;
+  margin: 80px;
+}
+
+.top-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-heading {
+  align-self: center;
+  font-size: 80px;
+}
+.hero-description {
+  align-self: center;
+  text-align: center;
+  max-width: 600px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 200px;
+}
+
+.button-email {
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  background: transparent;
+  margin: 0px 30px;
+  font-family: Orbitron;
+}
+.button-join {
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  font-family: Orbitron;
+}
+.star-2 > img {
+  width: 60px;
+  margin: 0px 40px;
+}
+.globe > img {
+  width: 60px;
+  margin: 20px 90px;
+}
+.star > img {
+  width: 50px;
+  margin-top: 70px;
+  margin-left: 90px;
+}
